@@ -636,7 +636,7 @@ button {
   margin-bottom: 0px;
   font-weight: 400;
 
-  transition: border-color var(--hover-effect);
+  transition: border-color var(--hover-effect), fill var(--hover-effect);
 }
 .modal-form-imput:focus {
   outline: none;
