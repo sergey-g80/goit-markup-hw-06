@@ -600,6 +600,7 @@ button {
   font-weight: 500px;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 2%;
   margin-bottom: 14px;
   color: #000000;
 }
@@ -618,6 +619,10 @@ button {
   transform: translate(0, -50%);
   height: 18px;
   width: 18px;
+  fill: #2e2f42;
+}
+.modal-form-input-icon:hover {
+  fill: #4d5ae5;
 }
 .modal-form-imput {
   width: 100%;
@@ -630,13 +635,15 @@ button {
   line-height: 1.33;
   margin-bottom: 0px;
   font-weight: 400;
+
   transition: border-color var(--hover-effect);
 }
 .modal-form-imput:focus {
   outline: none;
   border-color: #4d5ae5;
 }
-.modal-form-imput:focus + .modal-form-imput-icon {
+
+.modal-form-imput:focus + .modal-form-input-icon {
   fill: #4d5ae5;
 }
 
@@ -664,9 +671,10 @@ button {
 .modal-form-check-desc {
   display: flex;
   align-items: center;
-  font-style: 12px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.33;
+  letter-spacing: 4%;
   color: #757575;
   margin-top: 8px;
   margin-bottom: 24px;
